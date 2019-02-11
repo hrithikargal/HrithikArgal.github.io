@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Hrithik Argal | Profile</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+       <div class="container-fluid">
+           <!--nav start-->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand wow rubberBand" href="#">MyProfile</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active wow rubberBand"><a href="#home">Home</a></li>
+                        <li><a href="#skill" class="wow rubberBand">Skills</a></li>
+                        <li><a href="#pro" class="wow rubberBand">Projects</a></li>
+                        <li><a href="#about" class="wow rubberBand">About</a></li>
+                        <li><a href="#edu" class="wow rubberBand">Education</a></li>
+                        <li><a href="#contact" class="wow rubberBand">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+          <!--nav end-->
+
+            
+
+            <div class="row" id="home">
+
+                <div class="col-md-5" >
+                  
+                       
+               </div>
+
+             <div class="col-md-6 wow zoomIn" id="data">
+                    
+                            <h2>HRITHIK ARGAL</h2>
+                            <h5>Emerging FullStack Developer</h5>
+                            <p>
+                            Hello! I am Hrithik Argal currently working in Cognizant and I would like to utilize my skills and abilities in an environment, thereby providing meaningful contribution to the organization development and simultaneously self development.
+                            </p>
+                    <!-- <button class="btn" >Know More About Me </button> -->
+                    <br><br>
+                   <a href="#about" role="button" class="btn btn-info" >Know More About Me</a>  
+                    
+                </div>
+                <div class="col-md-1">
+                    </div>
+
+            </div> <!-- end of home -->
+
+            
+
+
+           <div class="row" id="skill">
+               <div class="container">
+                   <h1 class="my wow fadeInDown">Skills </h1>
+                   <div class="row" id="r1">
+                       <div class="col-md-2 wow fadeInLeft">
+                           
+                       </div>
+                       <div class="col-md-4 wow pulse">
+                           <img src="images/html.png" />
+                           <div class="progress">
+                                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                 85% 
+                                 </div>
+                            </div>
+                       </div>
+                       <div class="col-md-4 wow fadeInRight">
+                           <img src="images/bp.png" />
+                           <div class="progress">
+                                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                 85% 
+                                 </div>
+                            </div>
+                       </div>
+					   <div class="col-md-2">
+					   </div>
+
+                   </div>
+                   <div class="row" id="r2">
+				   
+				       <div class="col-md-2"></div>
+                       <div class="col-md-4 wow fadeInLeft">
+                           <img src="images/c.jpg" />
+                           <div class="progress">
+                                 <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                 60%
+                                 </div>
+                            </div>
+                       </div>
+                       <div class="col-md-4 wow pulse">
+                           <img src="images/java.png" />
+                           <div class="progress">
+                                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                 70% 
+                                 </div>
+                            </div>
+                       </div>
+                       <div class="col-md-2 wow fadeInRight">
+                           
+                       </div>
+
+                   </div>
+               </div><!-- end of container -->
+           </div> <!-- end of skill -->
+
+
+         
+
+
+           <div class="row" id="pro">
+               <div class="container">
+                   <h1 class="my  wow fadeInDown">Project Details </h1>
+                   <div class="col-md-6  wow zoomIn">
+                       <img src="images/lo.png"/>
+                       <h3>CNC (Computer Numerical Control) Machine</h3>
+                       <p>The CNC machine is principle model for the 3D printers and it is also used in laser printing.
+					   System is designed using Arduino Uno and works with the help of stepper motors and servo motors. </p>
+                   </div>
+                   <div class="col-md-6  wow zoomIn">
+                       <img src="images/lo.png"/>
+                       <h3>Car Service Centre</h3>
+                       <p>The project has been designed for a car service centre for easy and proper functioning of the centre.
+					   It carries every possible record of the clients from client details to billing details.
+					   The project has inter connectivity between user-end(Java) and database(Mysql).</p>
+                   </div>
+               </div>
+           </div> <!-- end of pro -->
+
+
+      <div class="row" id="about">
+					<div class="container" align="center">
+						<div class="col-md-3 wow zoomIn" id="photo">
+							<img src="images/logo.png" id="pic" style="height:380px;width:280px;margin-top:100px;border:5px solid lightgray">
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-8" >
+						<h1 class=" wow fadeInDown">About Me</h1>
+
+							<p style="text-align:justify ">
+							I am person who likes to utilize his skills and abilities in an environment, thereby providing meaningful contribution to the organization development and simultaneously self development.
+							My hobbies are watching cricket & TV series, foodie, dancing and listening to music.
+							I am a quick learner and believe in learning from my mistakes for I strongly feel that this virtue will take me ahead in life and career.
+                                </p>
+								<a href="HRITHIK_ARGAL_RESUME.pdf" alt="Hrithik Argal" class="btn btn-info" style="background-color: #3071a9" role="button" download="Resume" style="text-align: center; font-weight: bold; font-size:medium;">View Resume</a>
+
+                            
+							   
+                              
+
+                   
+							</div>
+          
+            </div> 
+			</div>
+
+           <div class="row" id="edu">
+               <div class="container">
+                   <div class="col-md-2"></div>
+                   <div class="col-md-8">
+                   <h1 class="my wow fadeInDown">Educational Details </h1>
+                   <div class="row" >
+                       <div class="col-md-3">
+                           <h3><b> 2015-2019</b><br> (4 years)</h3>
+                       </div>
+                       <div class="col-md-9  wow zoomIn">
+                           <h2 class="oop">Bachelor of Engineering in Electronics and Communication </h2>
+                           <p class="oop"> Lakshmi Narain College of Technology
+                               <br>
+                               CGPA 8.00
+                           </p>
+                       </div>
+                   </div>
+                   <div class="row" >
+                       <div class="col-md-9 wow zoomIn">
+                           <h2>Higher Secondary Education (Class XII)  </h2>
+                           <p>Sharda Vidya Mandir, Bhopal(M.P.)
+                               <br>
+                               87.4%
+                           </p>
+                       </div>
+                       <div class="col-md-3">
+                           <h3><b> 2013-2015</b><br> (2 years)</h3>
+                       </div>
+                   </div>
+                   <div class="row" >
+                       <div class="col-md-3">
+                           <h3><b> 2012-2013</b> <br>(1 years)</h3>
+                       </div>
+                       <div class="col-md-9 wow zoomIn">
+                           <h2 class="oop">Secondary Education (Class X) </h2>
+                           <p class="oop"> Sharda Vidya Mandir, Bhopal(M.P.)
+                               <br>
+                               89.3%
+                           </p>
+                       </div>
+                   </div></div>
+                   <div class="col-md-2"></div>
+                  </div>
+              
+           </div> <!-- end of edu -->
+
+
+          
+          
+
+           <div class="row" id="contact">
+ 
+               <div class="container">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4">
+                       <h1 class="my  wow fadeInDown"> Contact Details</h1>
+                       <img src="images/location.png" class="wow fadeInLeft" />
+                       <p class="wow fadeInRight">  Aarusha Homes, Hinjewadi Phase 1, Pune</p>
+                       <img src="images/mail.png"  class="wow fadeInLeft"/>
+                       <p class="wow fadeInRight">  Hrithik.Argal@Cognizant.com</p>
+                      
+                       <img src="images/mobile.png"  class="wow fadeInLeft"/>
+                       <p class="wow fadeInRight">  +91 9977249994</p>
+                   </div>
+                   <div class="col-md-4"></div>
+                   </div>
+           </div> <!-- end of contact -->
+
+        </div>
+    </body>
+</html>
